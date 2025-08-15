@@ -1,0 +1,38 @@
+{
+  "app": {
+    "title": "Paygoo Gift Card Balance",
+    "subtitle": "Securely check your Paygoo gift card balance via a server-side proxy. No CORS issues."
+  },
+  "form": {
+    "publicToken": "Customer ID",
+    "publicTokenHint": "16+ digits printed on your card.",
+    "phoneNumber": "Phone Number",
+    "phoneHint": "Include country code (e.g., +47).",
+    "check": "Check Balance",
+    "privacyNote": "Privacy-first: requests go through your server; nothing stored."
+  },
+  "result": {
+    "success": "Success",
+    "error": "Error",
+    "status": "Status",
+    "message": "Message",
+    "raw": "Raw response",
+    "noMessage": "No message"
+  },
+  "meta": {
+    "title": "Paygoo Gift Card Balance — Secure Checker",
+    "description": "Check Paygoo gift card balances securely via a server-side proxy. Fast, responsive, and privacy-first.",
+    "ogTitle": "Paygoo Gift Card Balance — Secure Checker",
+    "ogDescription": "Check Paygoo gift card balances securely via a server-side proxy."
+  },
+  "lang": {
+    "label": "Language",
+    "english": "English",
+    "norwegian": "Norsk (Bokmål)"
+  },
+  "footer": {
+    "opensource": "Open source on",
+    "github": "GitHub",
+    "contact": "Contact"
+  }
+}

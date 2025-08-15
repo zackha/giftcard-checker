@@ -1,0 +1,38 @@
+{
+  "app": {
+    "title": "Paygoo Gavekortsaldo",
+    "subtitle": "Sjekk saldoen på Paygoo-gavekortet ditt sikkert via en server-proxy. Ingen CORS-problemer."
+  },
+  "form": {
+    "publicToken": "Kunde ID",
+    "publicTokenHint": "16+ sifre trykket på kortet.",
+    "phoneNumber": "Telefonnummer",
+    "phoneHint": "Inkluder landskode (f.eks. +47).",
+    "check": "Sjekk saldo",
+    "privacyNote": "Personvern først: forespørsler går via din server; ingenting lagres."
+  },
+  "result": {
+    "success": "Vellykket",
+    "error": "Feil",
+    "status": "Status",
+    "message": "Melding",
+    "raw": "Rårespons",
+    "noMessage": "Ingen melding"
+  },
+  "meta": {
+    "title": "Paygoo Gavekortsaldo — Sikker sjekk",
+    "description": "Sjekk Paygoo-gavekortsaldo sikkert via en server-proxy. Rask, responsiv og personvernvennlig.",
+    "ogTitle": "Paygoo Gavekortsaldo — Sikker sjekk",
+    "ogDescription": "Sjekk Paygoo-gavekortsaldo sikkert via en server-proxy."
+  },
+  "lang": {
+    "label": "Språk",
+    "english": "Engelsk",
+    "norwegian": "Norsk (Bokmål)"
+  },
+  "footer": {
+    "opensource": "Åpen kildekode på",
+    "github": "GitHub",
+    "contact": "Kontakt"
+  }
+}

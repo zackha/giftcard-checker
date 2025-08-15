@@ -13,7 +13,6 @@ function onChange(e) {
 
 <template>
   <div class="flex items-center gap-2">
-    <label class="text-sm text-neutral-600 dark:text-neutral-400" for="lang">🌐</label>
     <select
       id="lang"
       :value="locale"

@@ -2,7 +2,7 @@
 
 A minimal, open-source Nuxt app to check **Paygoo gift card balances** securely via a **server-side proxy** (no CORS issues). Mobile-first UI, dark mode, and SEO-ready.
 
-![Social Card](/social-card.png)
+![Social Card](/public/social-card.png)
 
 ## Features
 

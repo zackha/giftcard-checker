@@ -1,6 +1,6 @@
 <script setup>
-const token = ref('3364068475850407');
-const phone = ref('+4740593647');
+const customerId = ref('');
+const phone = ref('');
 const loading = ref(false);
 const status = ref('');
 const message = ref('');
@@ -51,7 +51,7 @@ async function checkBalance() {
   try {
     const res = await $fetch('/api/paygoo', {
       method: 'POST',
-      body: { PublicToken: token.value.trim(), PhoneNumber: phone.value.trim() },
+      body: { PublicToken: customerId.value.trim(), PhoneNumber: phone.value.trim() },
     });
     rawJson.value = JSON.stringify(res, null, 2);
     status.value = String(res?.Status ?? '');
@@ -87,10 +87,10 @@ async function checkBalance() {
         <form class="grid gap-4 sm:gap-6" @submit.prevent="checkBalance">
           <div class="grid gap-4 sm:gap-6 sm:grid-cols-2">
             <div class="grid gap-1.5">
-              <label for="token" class="text-sm font-medium">{{ $t('form.publicToken') }}</label>
+              <label for="customerId" class="text-sm font-medium">{{ $t('form.publicToken') }}</label>
               <input
-                id="token"
-                v-model="token"
+                id="customerId"
+                v-model="customerId"
                 type="text"
                 inputmode="numeric"
                 autocomplete="off"
